@@ -845,7 +845,10 @@ export default function App() {
 
               <div className="text-sm text-[#7D7468] leading-relaxed font-light flex flex-col gap-4">
                 <p>
-                  During my internship at Silverzone Enterprise India, I developed **Kairo**, an Electron-based desktop application serving as a local network proxy host for ComfyUI backends. I designed modular node routing schemas for FLUX.1 Kontext 12B transformer models, establishing high-speed, local workflow executions.
+                  Currently, I am working as a **Data Scientist Intern** at **Ingenious Press Pvt Ltd** within the Data Analytics Department, focusing on Database Administration (DBA), schema optimizations, and constructing end-to-end Data Science project workflows.
+                </p>
+                <p>
+                  During my previous internship at Silverzone Enterprise India, I developed **Kairo**, an Electron-based desktop application serving as a local network proxy host for ComfyUI backends. I designed modular node routing schemas for FLUX.1 Kontext 12B transformer models, establishing high-speed, local workflow executions.
                 </p>
                 <p>
                   I am certified by **Samsung Innovation Campus** in Big Data cluster computing, with hands-on proficiency in Hadoop architectures, MapReduce paradigms, HDFS nodes, Spark pipelines, and Apache Sqoop data integrations.
@@ -1725,109 +1728,159 @@ export default function App() {
             </div>
 
             {/* Experience & Education timelines stack */}
-            <div className="lg:col-span-3 flex flex-col gap-6 w-full animate-fade-in">
-              
-              {/* Internship Card */}
-              <GlassCard className="glass-ai" shadowColor="rgba(168, 85, 247, 0.18)">
-                <div className="flex flex-col gap-4 text-left">
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <span className="text-[10px] font-mono text-purple-600 font-bold uppercase tracking-wider">
-                        June 2025 – July 2025
+            <div className="lg:col-span-3 relative flex flex-col gap-8 w-full animate-fade-in pl-6 md:pl-8">
+              {/* Timeline Vertical Axis Line */}
+              <div className="absolute left-0 top-8 bottom-12 w-[1px] bg-[#E6DFD5]/60 animate-pulse" />
+
+              {/* Present Internship Card */}
+              <div className="relative w-full">
+                {/* Timeline Dot */}
+                <div className="absolute left-0 top-8 w-3 h-3 rounded-full bg-sky-500 ring-4 ring-sky-100 dark:ring-sky-950/40 -translate-x-1/2 z-10 shadow-sm" />
+                
+                <GlassCard className="glass-pub" shadowColor="rgba(56, 189, 248, 0.18)">
+                  <div className="flex flex-col gap-4 text-left">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <span className="text-[10px] font-mono text-sky-600 font-bold uppercase tracking-wider">
+                          June 2026 – Present
+                        </span>
+                        <h3 className="font-serif text-lg md:text-xl font-medium text-[#2C2523] mt-1">
+                          Data Scientist Intern
+                        </h3>
+                        <p className="text-sm font-medium text-sky-600 mt-0.5">
+                          Ingenious Press Pvt Ltd (Data Analytics Department)
+                        </p>
+                      </div>
+                      <span className="text-[10px] bg-sky-50 text-sky-600 px-2.5 py-0.5 rounded-full border border-sky-100 font-semibold font-mono">
+                        Present
                       </span>
-                      <h3 className="font-serif text-lg md:text-xl font-medium text-[#2C2523] mt-1">
-                        IT Intern
-                      </h3>
-                      <p className="text-sm font-medium text-purple-600 mt-0.5">
-                        Silverzone Enterprise India Pvt Ltd
-                      </p>
                     </div>
-                    <span className="text-[10px] bg-purple-50 text-purple-600 px-2.5 py-0.5 rounded-full border border-purple-100 font-semibold font-mono">
-                      Internship
-                    </span>
+                    
+                    <ul className="text-sm text-[#7D7468] font-light list-disc list-inside space-y-2 leading-relaxed">
+                      <li>Collaborating on production-grade <strong>Data Science project workflows</strong>, developing predictive models, and running statistical analysis pipelines.</li>
+                      <li>Administering and optimizing relational schemas and database indexes, handling core <strong>Database Administration (DBA)</strong> tasks to ensure low-latency data access.</li>
+                      <li>Engineering ETL pipelines to clean, structure, and aggregate complex data points for marketing analytics.</li>
+                    </ul>
                   </div>
-                  
-                  <ul className="text-sm text-[#7D7468] font-light list-disc list-inside space-y-2 leading-relaxed">
-                    <li>Developed **Kairo**, a full-stack AI image generation desktop host running ComfyUI backends and **Flux.1 [dev]** transformer models.</li>
-                    <li>Designed modular node pipelines enabling style transfer and low-latency network proxy tools.</li>
-                    <li>Optimized data transmission speed between Electron UI and Express.js proxy modules.</li>
-                  </ul>
-                </div>
-              </GlassCard>
+                </GlassCard>
+              </div>
+
+              {/* Past Internship Card */}
+              <div className="relative w-full">
+                {/* Timeline Dot */}
+                <div className="absolute left-0 top-8 w-3 h-3 rounded-full bg-purple-500 ring-4 ring-purple-100 dark:ring-purple-950/40 -translate-x-1/2 z-10 shadow-sm" />
+
+                <GlassCard className="glass-ai" shadowColor="rgba(168, 85, 247, 0.18)">
+                  <div className="flex flex-col gap-4 text-left">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <span className="text-[10px] font-mono text-purple-600 font-bold uppercase tracking-wider">
+                          June 2025 – July 2025
+                        </span>
+                        <h3 className="font-serif text-lg md:text-xl font-medium text-[#2C2523] mt-1">
+                          IT Intern
+                        </h3>
+                        <p className="text-sm font-medium text-purple-600 mt-0.5">
+                          Silverzone Enterprise India Pvt Ltd
+                        </p>
+                      </div>
+                      <span className="text-[10px] bg-purple-50 text-purple-600 px-2.5 py-0.5 rounded-full border border-purple-100 font-semibold font-mono">
+                        Internship
+                      </span>
+                    </div>
+                    
+                    <ul className="text-sm text-[#7D7468] font-light list-disc list-inside space-y-2 leading-relaxed">
+                      <li>Developed **Kairo**, a full-stack AI image generation desktop host running ComfyUI backends and **Flux.1 [dev]** transformer models.</li>
+                      <li>Designed modular node pipelines enabling style transfer and low-latency network proxy tools.</li>
+                      <li>Optimized data transmission speed between Electron UI and Express.js proxy modules.</li>
+                    </ul>
+                  </div>
+                </GlassCard>
+              </div>
 
               {/* Education Card */}
-              <GlassCard className="glass-ds" shadowColor="rgba(16, 185, 129, 0.18)">
-                <div className="flex flex-col gap-4 text-left">
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <span className="text-[10px] font-mono text-emerald-600 font-bold uppercase tracking-wider">
-                        2023 – Expected 2027
+              <div className="relative w-full">
+                {/* Timeline Dot */}
+                <div className="absolute left-0 top-8 w-3 h-3 rounded-full bg-emerald-500 ring-4 ring-emerald-100 dark:ring-emerald-950/40 -translate-x-1/2 z-10 shadow-sm" />
+
+                <GlassCard className="glass-ds" shadowColor="rgba(16, 185, 129, 0.18)">
+                  <div className="flex flex-col gap-4 text-left">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <span className="text-[10px] font-mono text-emerald-600 font-bold uppercase tracking-wider">
+                          2023 – Expected 2027
+                        </span>
+                        <h3 className="font-serif text-lg md:text-xl font-medium text-[#2C2523] mt-1">
+                          B.Tech — Computer Science (Data Science)
+                        </h3>
+                        <p className="text-sm font-medium text-emerald-600 mt-0.5">
+                          Bhagwan Parshuram Institute of Technology (BPIT)
+                        </p>
+                      </div>
+                      <span className="text-[10px] bg-emerald-50 text-emerald-600 px-2.5 py-0.5 rounded-full border border-emerald-100 font-semibold font-mono">
+                        Education
                       </span>
-                      <h3 className="font-serif text-lg md:text-xl font-medium text-[#2C2523] mt-1">
-                        B.Tech — Computer Science (Data Science)
-                      </h3>
-                      <p className="text-sm font-medium text-emerald-600 mt-0.5">
-                        Bhagwan Parshuram Institute of Technology (BPIT)
+                    </div>
+                    
+                    <div className="text-sm text-[#7D7468] font-light flex flex-col gap-3 leading-relaxed">
+                      <p>
+                        <strong>CGPA: 9.58 / 10</strong>. Core coursework in compilers, distributed systems, machine learning architectures, and statistics.
                       </p>
-                    </div>
-                    <span className="text-[10px] bg-emerald-50 text-emerald-600 px-2.5 py-0.5 rounded-full border border-emerald-100 font-semibold font-mono">
-                      Education
-                    </span>
-                  </div>
-                  
-                  <div className="text-sm text-[#7D7468] font-light flex flex-col gap-3 leading-relaxed">
-                    <p>
-                      <strong>CGPA: 9.58 / 10</strong>. Core coursework in compilers, distributed systems, machine learning architectures, and statistics.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4 border-t border-emerald-200/20 pt-3">
-                      <div>
-                        <h4 className="text-[10px] font-bold text-emerald-800 uppercase font-mono">Modern Convent School</h4>
-                        <p className="text-xs text-[#908576]">12th CBSE — 89.8% (2023)</p>
-                      </div>
-                      <div>
-                        <h4 className="text-[10px] font-bold text-emerald-800 uppercase font-mono">Modern Convent School</h4>
-                        <p className="text-xs text-[#908576]">10th CBSE — 90.0% (2021)</p>
+                      <div className="grid grid-cols-2 gap-4 border-t border-emerald-200/20 pt-3">
+                        <div>
+                          <h4 className="text-[10px] font-bold text-emerald-800 uppercase font-mono">Modern Convent School</h4>
+                          <p className="text-xs text-[#908576]">12th CBSE — 89.8% (2023)</p>
+                        </div>
+                        <div>
+                          <h4 className="text-[10px] font-bold text-emerald-800 uppercase font-mono">Modern Convent School</h4>
+                          <p className="text-xs text-[#908576]">10th CBSE — 90.0% (2021)</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </GlassCard>
+                </GlassCard>
+              </div>
 
               {/* Awards Card */}
-              <GlassCard className="glass-bd" shadowColor="rgba(245, 158, 11, 0.18)">
-                <div className="flex flex-col gap-3 text-left">
-                  <span className="text-xs font-mono text-amber-600 font-bold uppercase tracking-wider flex items-center gap-1.5">
-                    <Award className="w-4 h-4" /> Hackathon Honors & Credentials
-                  </span>
-                  
-                  <div className="flex flex-col gap-3 mt-1.5">
-                    <div className="flex justify-between items-center text-sm font-light">
-                      <span className="text-[#2C2523] font-medium">
-                        🥇 1st Place — Indian Knowledge System Exhibition
-                      </span>
-                      <span className="text-xs text-[#908576] font-mono font-semibold">BPIT</span>
-                    </div>
+              <div className="relative w-full">
+                {/* Timeline Dot */}
+                <div className="absolute left-0 top-8 w-3 h-3 rounded-full bg-amber-500 ring-4 ring-amber-100 dark:ring-amber-950/40 -translate-x-1/2 z-10 shadow-sm" />
 
-                    <div className="flex justify-between items-center text-sm font-light">
-                      <span className="text-[#2C2523] font-medium">
-                        🥉 3rd Place — Data-Sphere Hackathon
-                      </span>
-                      <span className="text-xs text-[#908576] font-mono font-semibold">NSUT, 2025</span>
-                    </div>
+                <GlassCard className="glass-bd" shadowColor="rgba(245, 158, 11, 0.18)">
+                  <div className="flex flex-col gap-3 text-left">
+                    <span className="text-xs font-mono text-amber-600 font-bold uppercase tracking-wider flex items-center gap-1.5">
+                      <Award className="w-4 h-4" /> Hackathon Honors & Credentials
+                    </span>
+                    
+                    <div className="flex flex-col gap-3 mt-1.5">
+                      <div className="flex justify-between items-center text-sm font-light">
+                        <span className="text-[#2C2523] font-medium">
+                          🥇 1st Place — Indian Knowledge System Exhibition
+                        </span>
+                        <span className="text-xs text-[#908576] font-mono font-semibold">BPIT</span>
+                      </div>
 
-                    <div className="flex justify-between items-center text-sm font-light">
-                      <span className="text-[#2C2523] font-medium">
-                        🥉 3rd Place — Dataverse Hackathon
-                      </span>
-                      <span className="text-xs text-[#908576] font-mono font-semibold">NSUT, 2024</span>
-                    </div>
+                      <div className="flex justify-between items-center text-sm font-light">
+                        <span className="text-[#2C2523] font-medium">
+                          🥉 3rd Place — Data-Sphere Hackathon
+                        </span>
+                        <span className="text-xs text-[#908576] font-mono font-semibold">NSUT, 2025</span>
+                      </div>
 
-                    <div className="border-t border-[#E6DFD5]/50 pt-3 text-xs text-[#7D7468] leading-relaxed">
-                      <strong>Samsung Innovation Campus Certification</strong>: Hadoop ecosystem modules, HDFS cluster architecture, MapReduce paradigms, Spark, and big data pipelines.
+                      <div className="flex justify-between items-center text-sm font-light">
+                        <span className="text-[#2C2523] font-medium">
+                          🥉 3rd Place — Dataverse Hackathon
+                        </span>
+                        <span className="text-xs text-[#908576] font-mono font-semibold">NSUT, 2024</span>
+                      </div>
+
+                      <div className="border-t border-[#E6DFD5]/50 pt-3 text-xs text-[#7D7468] leading-relaxed">
+                        <strong>Samsung Innovation Campus Certification</strong>: Hadoop ecosystem modules, HDFS cluster architecture, MapReduce paradigms, Spark, and big data pipelines.
+                      </div>
                     </div>
                   </div>
-                </div>
-              </GlassCard>
+                </GlassCard>
+              </div>
 
             </div>
           </div>
