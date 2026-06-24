@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
-import { Mail, ArrowUpRight, GraduationCap, Briefcase, Sparkles, FolderGit2, Layers, Award, Terminal, Heart, Cpu, ChevronLeft, ChevronRight, CornerDownLeft } from 'lucide-react';
+import { Mail, ArrowUpRight, GraduationCap, Briefcase, Sparkles, FolderGit2, Layers, Award, Terminal, Heart, Cpu, ChevronLeft, ChevronRight, CornerDownLeft, Phone } from 'lucide-react';
 import { GlassCard } from './components/GlassCard';
 import { Magnetic } from './components/Magnetic';
 import { DragPhoto } from './components/DragPhoto';
@@ -524,10 +524,11 @@ export default function App() {
             </Magnetic>
             <Magnetic strength={0.35}>
               <a 
-                href="https://linkedin.com/in/shivansh-kandwal" 
+                href="https://www.linkedin.com/in/shivansh-kandwal-b1583b293/" 
                 target="_blank" 
                 rel="noreferrer"
                 className="w-8 h-8 rounded-full flex items-center justify-center text-[#7D7468] hover:text-[#2C2523] hover:bg-white/40 transition-colors duration-300"
+                title="LinkedIn Profile"
               >
                 <LinkedinIcon className="w-4 h-4" />
               </a>
@@ -536,8 +537,18 @@ export default function App() {
               <a 
                 href="mailto:shivanshkandwal1@gmail.com"
                 className="w-8 h-8 rounded-full flex items-center justify-center text-[#7D7468] hover:text-[#2C2523] hover:bg-white/40 transition-colors duration-300"
+                title="Email Me"
               >
                 <Mail className="w-4 h-4" />
+              </a>
+            </Magnetic>
+            <Magnetic strength={0.35}>
+              <a 
+                href="tel:+918527991992" 
+                className="w-8 h-8 rounded-full flex items-center justify-center text-[#7D7468] hover:text-[#2C2523] hover:bg-white/40 transition-colors duration-300"
+                title="Call (+91) 8527991992"
+              >
+                <Phone className="w-4 h-4" />
               </a>
             </Magnetic>
           </div>
@@ -870,7 +881,7 @@ export default function App() {
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
                 
-                <div className="flex items-center justify-center gap-3">
+                <div className="flex flex-wrap items-center justify-center gap-3">
                   <a 
                     href="https://github.com/ShivanshKandwal" 
                     target="_blank" 
@@ -880,12 +891,18 @@ export default function App() {
                     <GithubIcon className="w-4 h-4" /> GitHub
                   </a>
                   <a 
-                    href="https://linkedin.com/in/shivansh-kandwal" 
+                    href="https://www.linkedin.com/in/shivansh-kandwal-b1583b293/" 
                     target="_blank" 
                     rel="noreferrer"
                     className="flex-1 sm:flex-initial text-xs font-semibold text-[#7D7468] hover:text-[#2C2523] px-4 py-3.5 rounded-full border border-[#E6DFD5] hover:bg-white/40 transition-all text-center flex items-center justify-center gap-1.5"
                   >
                     <LinkedinIcon className="w-4 h-4" /> LinkedIn
+                  </a>
+                  <a 
+                    href="tel:+918527991992" 
+                    className="flex-1 sm:flex-initial text-xs font-semibold text-[#7D7468] hover:text-[#2C2523] px-4 py-3.5 rounded-full border border-[#E6DFD5] hover:bg-white/40 transition-all text-center flex items-center justify-center gap-1.5"
+                  >
+                    <Phone className="w-4 h-4" /> (+91) 8527991992
                   </a>
                 </div>
               </div>
@@ -1911,7 +1928,7 @@ export default function App() {
                   Engineering is about constant prototyping, experimentations, and late-night campus hackathons.
                 </p>
                 <p>
-                  These photos represent my workstation setup, my university quad campus, and SIH team collaborations.
+                  These photos represent my workstation setup, my hackathon victories, and SIH team collaborations.
                 </p>
               </div>
 
@@ -1947,8 +1964,8 @@ export default function App() {
                 
                 <DragPhoto 
                   src={campusImg}
-                  alt="Scholarly Campus Life"
-                  caption="Matches & Campus Grounds"
+                  alt="Winning Hackathons"
+                  caption="Winning Hackathons"
                   containerRef={photoContainerRef}
                   initialRotate={5}
                   initialX={65}
@@ -1957,8 +1974,8 @@ export default function App() {
                 
                 <DragPhoto 
                   src={hackathonImg}
-                  alt="Hackathon Collaboration Team"
-                  caption="Jatayu SIH Team Setup"
+                  alt="SIH JFC Team"
+                  caption="SIH JFC Team"
                   containerRef={photoContainerRef}
                   initialRotate={-2}
                   initialX={-15}
@@ -2776,20 +2793,20 @@ const galleryItems: GalleryItem[] = [
   {
     id: 22,
     src: campusImg,
-    title: "BPIT University Quad Grounds",
+    title: "Winning Hackathons",
     project: "Life Sandbox",
-    tag: "Academic campus life",
-    desc: "Bhagwan Parshuram Institute of Technology campus quad grounds, representing scholarly Convent education and student life.",
-    details: "Campus quad showcasing university events and academic student interactions."
+    tag: "Hackathon Victory",
+    desc: "Shivansh and his team holding the award trophy, representing coding victories, constant engineering prototyping, and team accomplishments.",
+    details: "Trophy presentation ceremony showcasing hackathon achievements and team project validations."
   },
   {
     id: 23,
     src: hackathonImg,
-    title: "SIH Jatayu Hackathon Setup",
+    title: "SIH JFC Team Setup",
     project: "Life Sandbox",
     tag: "Teamwork & Collaboration",
-    desc: "The smart hackathon team setting, collaborating and coordinating on coding the final build for the SIH 2025 selection.",
-    details: "Team workspace illustrating late-night coding, Godot 4 debugging, and live client API connections."
+    desc: "The Smart India Hackathon JFC team, collaborating on code solutions, UI systems, and engineering validations.",
+    details: "Team portrait celebrating collaboration, Godot 2D quests, and edge vision systems."
   }
 ];
 
