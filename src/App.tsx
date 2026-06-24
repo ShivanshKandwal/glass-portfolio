@@ -33,6 +33,7 @@ import shopeasyOverview from './assets/shopeasy_overview.png';
 import shopeasyConversion from './assets/shopeasy_conversion.png';
 import shopeasyMarketing from './assets/shopeasy_marketing.png';
 import shopeasySentiment from './assets/shopeasy_sentiment.png';
+import portfolioPreview from './assets/portfolio_preview.png';
 
 // Custom SVG Brand Icons
 const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -350,6 +351,15 @@ export default function App() {
 
   // Other repos for the Hover Peek list
   const otherProjects: ProjectData[] = [
+    {
+      title: "glass-portfolio",
+      description: "Interactive glassmorphic developer portfolio featuring custom command line terminal, photo grids, and spotlights.",
+      tags: ["React", "TypeScript", "Vite", "Tailwind"],
+      image: portfolioPreview,
+      githubUrl: "https://github.com/ShivanshKandwal/glass-portfolio",
+      stars: "1",
+      language: "TypeScript"
+    },
     {
       title: "Cool-Mini-Games-I-Made",
       description: "Collection of interactive lightweight HTML5 games exploring 2D canvas rendering and custom logic.",
