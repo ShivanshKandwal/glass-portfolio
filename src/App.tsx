@@ -34,6 +34,7 @@ import shopeasyConversion from './assets/shopeasy_conversion.png';
 import shopeasyMarketing from './assets/shopeasy_marketing.png';
 import shopeasySentiment from './assets/shopeasy_sentiment.png';
 import portfolioPreview from './assets/portfolio_preview.png';
+import datascienceDevPreview from './assets/datascience_dev_preview.png';
 
 // Custom SVG Brand Icons
 const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -359,6 +360,15 @@ export default function App() {
       githubUrl: "https://github.com/ShivanshKandwal/glass-portfolio",
       stars: "1",
       language: "TypeScript"
+    },
+    {
+      title: "DataScienceDev",
+      description: "A comprehensive repository containing data science projects, model evaluations, Jupyter Notebook guides, and statistical analysis scripts.",
+      tags: ["Jupyter", "Python", "TypeScript", "Data Science"],
+      image: datascienceDevPreview,
+      githubUrl: "https://github.com/ShivanshKandwal/DataScienceDev",
+      stars: "1",
+      language: "Jupyter"
     },
     {
       title: "Cool-Mini-Games-I-Made",
@@ -876,6 +886,9 @@ export default function App() {
                 </p>
                 <p>
                   Additionally, I have authored research in Speech Emotion Recognition utilizing Hybrid DNN architectures (achieving 81.94% accuracy with 125-dimensional acoustic feature vectors) and led multiple teams to top placements in NSUT Hackathons (Data-Sphere 2025, Dataverse 2024) and BPIT exhibitions, alongside team selection for the Smart India Hackathon (SIH) 2025.
+                </p>
+                <p>
+                  Believing in open education, I actively maintain my <a href="https://github.com/ShivanshKandwal/DataScienceDev" target="_blank" rel="noreferrer" className="text-purple-600 hover:text-purple-800 underline font-semibold transition-colors">DataScienceDev</a> repository every day—a curated showcase of data science project workflows, statistical analysis scripts, and notebook resources to help others get started in the field.
                 </p>
               </div>
 
