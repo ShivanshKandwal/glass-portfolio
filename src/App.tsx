@@ -366,7 +366,7 @@ export default function App() {
       description: "A comprehensive repository containing data science projects, model evaluations, Jupyter Notebook guides, and statistical analysis scripts.",
       tags: ["Jupyter", "Python", "TypeScript", "Data Science"],
       image: datascienceDevPreview,
-      githubUrl: "https://github.com/ShivanshKandwal/DataScienceDev",
+      githubUrl: "https://shivanshkandwal.github.io/DataScienceDev/",
       stars: "1",
       language: "Jupyter"
     },
@@ -888,7 +888,7 @@ export default function App() {
                   Additionally, I have authored research in Speech Emotion Recognition utilizing Hybrid DNN architectures (achieving 81.94% accuracy with 125-dimensional acoustic feature vectors) and led multiple teams to top placements in NSUT Hackathons (Data-Sphere 2025, Dataverse 2024) and BPIT exhibitions, alongside team selection for the Smart India Hackathon (SIH) 2025.
                 </p>
                 <p>
-                  Believing in open education, I actively maintain my <a href="https://github.com/ShivanshKandwal/DataScienceDev" target="_blank" rel="noreferrer" className="text-purple-600 hover:text-purple-800 underline font-semibold transition-colors">DataScienceDev</a> repository every day—a curated showcase of data science project workflows, statistical analysis scripts, and notebook resources to help others get started in the field.
+                  Believing in open education, I actively maintain my <a href="https://shivanshkandwal.github.io/DataScienceDev/" target="_blank" rel="noreferrer" className="text-purple-600 hover:text-purple-800 underline font-semibold transition-colors">DataScienceDev</a> repository every day—a curated showcase of data science project workflows, statistical analysis scripts, and notebook resources to help others get started in the field.
                 </p>
               </div>
 
